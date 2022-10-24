@@ -1,0 +1,34 @@
+docker
+docker run --name repo alpine/git clone https://github.com/docker/getting-started.git
+docker cp repo:/git/getting-start/ .
+docker build -t docker101tutorial .
+docker run -d -p 80:80 --name docker-tutorial docker101tutorial
+docker tag docker101tutorial cpeizhi/docker101tutorial
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

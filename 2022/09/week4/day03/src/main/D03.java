@@ -11,7 +11,7 @@ import lombok.Data;
  */
 @Data
 public class D03 {
-//    Ê¹ÓÃlombok
+//    ä½¿ç”¨lombok
     private String name;
     private Integer age;
 }

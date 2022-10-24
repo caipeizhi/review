@@ -1,0 +1,70 @@
+代码的当前目录怎么判断
+正则表达式规则
+深度与受栈帧大小影响，如果调用过程中使用越多空间，深度越浅
+io流的偏移量作用
+
+IO的种类
+输入输出流
+字节字符流
+缓存流
+转化流
+打印流
+对象流：对象如果是static是否可以存
+properties
+
+
+IO涉及的特殊字符
+换行：
+win:CRLF \r\n
+mac:CR \r
+unix:LF \n
+
+目录分隔符
+win: \
+linux: /
+
+1.磁盘格式有哪些？
+2.磁盘的不同格式有什么区别？
+3.文件数量达到多少不太好
+
+lambda的延迟加载是怎么实现的
+四种类型汇总：
+suppiler 生产型 collect
+consumer 消费型 reduce
+predicate 断言 fiter
+funcation 转化 map
+stream->filter->map->collect->reduce->skip->count
+
+list.toArray(new String[0])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

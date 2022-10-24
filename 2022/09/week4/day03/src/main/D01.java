@@ -1,6 +1,6 @@
 package main;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
 import java.util.Arrays;
 import java.util.List;
@@ -15,14 +15,14 @@ import java.util.List;
 public class D01 {
     @Test
     public void test1(){
-//        µ±Òç³öÊ±£¬´Ó×îĞ¡µÄ¿ªÊ¼¼Ó£¬Èç-2147483648
+//        å½“æº¢å‡ºæ—¶ï¼Œä»æœ€å°çš„å¼€å§‹åŠ ï¼Œå¦‚-2147483648
         int a = Integer.MAX_VALUE;
         System.out.println(a+1);
     }
 
     @Test
     public void test2(){
-//        Ê¹ÓÃ·ÇÄ¬ÈÏÊı¾İÀàĞÍÎªlong£¬float£¬
+//        ä½¿ç”¨éé»˜è®¤æ•°æ®ç±»å‹ä¸ºlongï¼Œfloatï¼Œ
         long l = 1L;
         float f = 1.0f;
     }
@@ -30,14 +30,14 @@ public class D01 {
 
     @Test
     public void test3(){
-//        doubleÀàĞÍ´òÓ¡Ê±´øÉÏÁË.0ºó×º
+//        doubleç±»å‹æ‰“å°æ—¶å¸¦ä¸Šäº†.0åç¼€
         double num3 = 30;
         System.out.println(num3); // 30.0
     }
 
     @Test
     public void test4(){
-//        Ê¹ÓÃ°ü×°ÀàÄÜ±È½ÏºÃµÄÊ¹ÓÃº¯Êı
+//        ä½¿ç”¨åŒ…è£…ç±»èƒ½æ¯”è¾ƒå¥½çš„ä½¿ç”¨å‡½æ•°
         Integer[] nums = {1,2,3,4};
         List<Integer> ints = Arrays.asList(nums);
         ints.forEach(System.out::println);
@@ -45,46 +45,46 @@ public class D01 {
 
     @Test
     public void test5(){
-//        boolean²»ÄÜ½øĞĞÀàĞÍ×ª»¯
+//        booleanä¸èƒ½è¿›è¡Œç±»å‹è½¬åŒ–
 //        int b = false;
     }
 
     @Test
     public void test6(){
-//        È¡Ä£n,ÖµÎª -(n-1)~(n-1)
+//        å–æ¨¡n,å€¼ä¸º -(n-1)~(n-1)
         System.out.println(-4%7);// -4
         System.out.println(4%-7);// 4
     }
 
     @Test
     public void test7() {
-//        ÈıÔªÔËËã·û°éËæ×ÅÇ¿ÖÆÀàĞÍ×ª»¯
+//        ä¸‰å…ƒè¿ç®—ç¬¦ä¼´éšç€å¼ºåˆ¶ç±»å‹è½¬åŒ–
         System.out.println(1 > 2 ? 1.0 : 3);
     }
 
     @Test
     public void test8() {
-//        ±àÒëÊ±»áÓĞ³£Á¿ÓÅ»¯»úÖÆ´æÔÚ
+//        ç¼–è¯‘æ—¶ä¼šæœ‰å¸¸é‡ä¼˜åŒ–æœºåˆ¶å­˜åœ¨
         int result = 5 + 8;
         System.out.println(result);
     }
 
     @Test
     public void test9() {
-//        Êı×éµÄ³õÊ¼»¯
+//        æ•°ç»„çš„åˆå§‹åŒ–
         int[] arrayA = new int[] { 5, 15, 25, 40 };
         int[] arrayB = new int[10];
     }
 
     @Test
     public void test10() {
-//        Êı×éµÄ³õÊ¼»¯
-//        Ê¹ÓÃ¶¯Ì¬³õÊ¼»¯Êı×éµÄÊ±ºò£¬ÆäÖĞµÄÔªËØ½«»á×Ô¶¯ÓµÓĞÒ»¸öÄ¬ÈÏÖµ¡£¹æÔòÈçÏÂ£º
-//        Èç¹ûÊÇÕûÊıÀàĞÍ£¬ÄÇÃ´Ä¬ÈÏÎª0£»
-//        Èç¹ûÊÇ¸¡µãÀàĞÍ£¬ÄÇÃ´Ä¬ÈÏÎª0.0£»
-//        Èç¹ûÊÇ×Ö·ûÀàĞÍ£¬ÄÇÃ´Ä¬ÈÏÎª'\u0000'£»
-//        Èç¹ûÊÇ²¼¶ûÀàĞÍ£¬ÄÇÃ´Ä¬ÈÏÎªfalse£»
-//        Èç¹ûÊÇÒıÓÃÀàĞÍ£¬ÄÇÃ´Ä¬ÈÏÎªnull¡£
+//        æ•°ç»„çš„åˆå§‹åŒ–
+//        ä½¿ç”¨åŠ¨æ€åˆå§‹åŒ–æ•°ç»„çš„æ—¶å€™ï¼Œå…¶ä¸­çš„å…ƒç´ å°†ä¼šè‡ªåŠ¨æ‹¥æœ‰ä¸€ä¸ªé»˜è®¤å€¼ã€‚è§„åˆ™å¦‚ä¸‹ï¼š
+//        å¦‚æœæ˜¯æ•´æ•°ç±»å‹ï¼Œé‚£ä¹ˆé»˜è®¤ä¸º0ï¼›
+//        å¦‚æœæ˜¯æµ®ç‚¹ç±»å‹ï¼Œé‚£ä¹ˆé»˜è®¤ä¸º0.0ï¼›
+//        å¦‚æœæ˜¯å­—ç¬¦ç±»å‹ï¼Œé‚£ä¹ˆé»˜è®¤ä¸º'\u0000'ï¼›
+//        å¦‚æœæ˜¯å¸ƒå°”ç±»å‹ï¼Œé‚£ä¹ˆé»˜è®¤ä¸ºfalseï¼›
+//        å¦‚æœæ˜¯å¼•ç”¨ç±»å‹ï¼Œé‚£ä¹ˆé»˜è®¤ä¸ºnullã€‚
         int[] array1 = new int[10];
         double[] array2 = new double[10];
         char[] array3 = new char[10];
@@ -99,7 +99,7 @@ public class D01 {
 
     @Test
     public void test11(){
-//        µØÖ·µÄ·½Ê½System.identityHashCode
+//        åœ°å€çš„æ–¹å¼System.identityHashCode
         String s1 = "123";
         String s2 = s1;
         System.out.println(System.identityHashCode(s1));
@@ -108,7 +108,7 @@ public class D01 {
 
     @Test
     public void test12(){
-//        µ÷Õû±È½ÏÆ÷ÅÅĞò
+//        è°ƒæ•´æ¯”è¾ƒå™¨æ’åº
         Integer[] array = { 10, 20, 30, 40, 50 };
         Arrays.sort(array, (o1, o2) -> o2-o1);
         Arrays.stream(array).map(integer -> String.format("%d ", integer)).forEach(System.out::print);

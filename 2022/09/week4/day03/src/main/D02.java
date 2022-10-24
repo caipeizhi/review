@@ -8,7 +8,7 @@ package main;
  * @Version 1.0
  */
 public class D02 {
-//    ¶ÔÓÚ»ù±¾ÀàĞÍµ±ÖĞµÄbooleanÖµ£¬Getter·½·¨Ò»¶¨ÒªĞ´³ÉisXxxµÄĞÎÊ½£¬¶øsetXxx¹æÔò²»±ä¡£
+//    å¯¹äºåŸºæœ¬ç±»å‹å½“ä¸­çš„booleanå€¼ï¼ŒGetteræ–¹æ³•ä¸€å®šè¦å†™æˆisXxxçš„å½¢å¼ï¼Œè€ŒsetXxxè§„åˆ™ä¸å˜ã€‚
     private boolean flag;
 
     public boolean isFlag() {

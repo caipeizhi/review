@@ -8,13 +8,13 @@ package main;
  * @Version 1.0
  */
 public class D04 {
-//    ¹¹Ôì´úÂë¿ì¼ÓÔØÏÈÓÚ¹¹Ôì·½·¨
+//    æ„é€ ä»£ç å¿«åŠ è½½å…ˆäºæ„é€ æ–¹æ³•
     public D04() {
-        System.out.println("¹¹Ôì·½·¨");
+        System.out.println("æ„é€ æ–¹æ³•");
     }
 
     {
-        System.out.println("¹¹Ôì´úÂë¿é");
+        System.out.println("æ„é€ ä»£ç å—");
     }
 
     public static void main(String[] args) {

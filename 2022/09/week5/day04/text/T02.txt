@@ -1,0 +1,40 @@
+红黑树
+特点：趋近于平衡树，查询的熟读非常的快，查询叶子节点最大次数于最小次数不能超过两倍
+插入或者删除节点时，红黑树旋转的次数比平衡二叉树少
+
+集合的选择
+list 放入有序，可重复
+ArrayList: 查询多
+LinkedList: 增删多
+Vector: 线程安全
+CopyOnWriteArrayList：迭代器遍历过程修改
+
+set 放入无序，不可重复
+HashSet：
+TreeSet：内容有序
+LinkedHashSet: 放入有序
+
+Map key-value
+HashMap:
+TreeMap: 内容有序
+LinkedHashMap: 放入有序
+Hashtable: 线程安全
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
